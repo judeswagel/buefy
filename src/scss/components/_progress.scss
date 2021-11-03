@@ -13,7 +13,7 @@
     }
     &.is-large {
         + .progress-value, .progress-value {
-            font-size: calc(#{$size-large} / 1.5);
+            font-size: calc(#{$size-large} / 3);
             line-height: $size-large;
         }
     }
@@ -24,7 +24,7 @@
     overflow: hidden;
 
     &:not(:last-child) {
-        margin-bottom: 1.5rem;
+        margin-bottom: 3rem;
     }
 
     .progress-value {
@@ -32,7 +32,7 @@
         top: 0;
         left: 50%;
         transform: translateX(-50%);
-        font-size: calc(#{$size-normal} / 1.5);
+        font-size: calc(#{$size-normal} / 3);
         line-height: $size-normal;
         font-weight: $weight-bold;
         color: findColorInvert($progress-bar-background-color);
